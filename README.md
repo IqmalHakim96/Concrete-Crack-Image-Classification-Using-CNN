@@ -20,8 +20,6 @@ The model architecture are shown in image below:
 
 ![model_list](https://user-images.githubusercontent.com/105650253/211811278-29876914-6f5b-4bb5-806e-a8470036d8b1.PNG)
 
-
-
 ![model architecture](https://user-images.githubusercontent.com/105650253/211809198-0ad5f0f6-9a03-42ec-a70f-170ef48626df.png)
 
 Since it's a binary classification, the loss function used is sparse cross-entropy. The optimizer used is Adam and the adopted batch size 64.
