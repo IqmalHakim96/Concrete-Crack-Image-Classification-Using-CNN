@@ -1,13 +1,13 @@
 #%%
 #Import Packages
+import os
+import datetime
+import numpy as np
+import pathlib
 import tensorflow as tf
 from tensorflow import keras
-from tensorflow.keras import layers,optimizers,losses,callbacks,metrics,applications
-import numpy as np
-import os
 import matplotlib.pyplot as plt
-import pathlib
-import datetime
+from tensorflow.keras import layers,optimizers,losses,callbacks,metrics,applications
 
 #%%
 #1. Data Loading
@@ -37,7 +37,6 @@ for images,labels in train_dataset.take(1):
         plt.title(class_names[labels[i]])
         plt.axis('off')
 
-#%%
 #%%
 #4. Further split the validation dataset into validation-test split
 val_batches = tf.data.experimental.cardinality(val_dataset)
@@ -158,4 +157,7 @@ for i in range(len(image_batch)):
 plt.show()
 
 #%%
+#%% Model Saving
+#save trained tf model
+model.save('model.h5')
 
