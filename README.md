@@ -22,7 +22,7 @@ The model architecture are shown in image below:
 
 ![model architecture](https://user-images.githubusercontent.com/105650253/211809198-0ad5f0f6-9a03-42ec-a70f-170ef48626df.png)
 
-Since it's a binary classification, the loss function used is sparse cross-entropy. The optimizer used is Adam and the adopted batch size 64.
+Since it's a binary classification, the loss function used is sparse cross-entropy. The optimizer used is Adam.
 The model is trained by using 5 number of epochs with 64 of batch_sizes. Early Stopping were used in this process to ensure the training process of the model are not overfitting. The training was done with 99% training accuracy and 99% validation accuracy.
 ![Tensorboard_Graph](https://user-images.githubusercontent.com/105650253/211811248-85fff989-33e9-41e1-97cc-bf63391fad98.PNG)
 
