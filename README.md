@@ -38,7 +38,7 @@ The model was deploy to shown the prediction vs actual result in images
 ### Discussion
 The model was good enough to classify image classification, however there are some issues regarding on this model and can have some improvement:-
 1. The pretrained model can be change to any applications model in Tensorflow documentation. The documentation can be refer at this website:https://www.tensorflow.org/tutorials/images/transfer_learning
-2. Number of epochs can be increase if you have powerful internal harware of your machine so that the time can be reduced  and can applied EarlyStopping method to avoid the trained data are overfitting
+2. Number of epochs can be increase if you have powerful internal hardware of your machine so that the time can be reduced  and can applied EarlyStopping method to avoid the trained data are overfitting
 
 ### Acknowledgment
 The dataset used in this analysis is from : https://data.mendeley.com/datasets/5y9wdsg2zt/2
