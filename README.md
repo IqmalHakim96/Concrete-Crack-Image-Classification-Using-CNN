@@ -30,6 +30,7 @@ The model is trained by using 5 number of epochs with 64 of batch_sizes. Early S
 
 ### Result
 The model was evaluated with test data and shown 99% of accuracy.
+
 ![result](https://user-images.githubusercontent.com/105650253/211811573-cd2c0e34-3f4c-4f7e-8374-8d01574c89cb.PNG)
 
 The model was deploy to shown the prediction vs actual result in images
